@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testRunner.Runner" time="46.73" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\vicky\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\vicky\eclipse-workspaceMavenDemo\SeleniumCucumber\target\test-classes;C:\Users\vicky\eclipse-workspaceMavenDemo\SeleniumCucumber\target\classes;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.0\selenium-java-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.0\selenium-api-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.0\selenium-chrome-driver-4.1.0.jar;C:\Users\vicky\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\vicky\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\vicky\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.0\selenium-chromium-driver-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.0\selenium-json-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.0\selenium-devtools-v85-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.1.0\selenium-devtools-v94-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.0\selenium-devtools-v95-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.0\selenium-devtools-v96-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.0\selenium-edge-driver-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.0\selenium-firefox-driver-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.0\selenium-firefox-xpi-driver-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.0\selenium-ie-driver-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.0\selenium-opera-driver-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.0\selenium-remote-driver-4.1.0.jar;C:\Users\vicky\.m2\repository\com\beust\jcommander\1.81\jcommander-1.81.jar;C:\Users\vicky\.m2\repository\io\netty\netty-buffer\4.1.69.Final\netty-buffer-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-codec-http\4.1.69.Final\netty-codec-http-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-codec\4.1.69.Final\netty-codec-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-handler\4.1.69.Final\netty-handler-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-common\4.1.69.Final\netty-common-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-transport-native-epoll\4.1.69.Final\netty-transport-native-epoll-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.69.Final\netty-transport-native-kqueue-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.69.Final\netty-transport-native-unix-common-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-transport\4.1.69.Final\netty-transport-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-resolver\4.1.69.Final\netty-resolver-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-api\1.9.0\opentelemetry-api-1.9.0.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-context\1.9.0\opentelemetry-context-1.9.0.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.9.0\opentelemetry-exporter-logging-1.9.0.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.9.0-alpha\opentelemetry-sdk-metrics-1.9.0-alpha.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.9.0-alpha\opentelemetry-sdk-logs-1.9.0-alpha.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.9.0\opentelemetry-sdk-common-1.9.0.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.9.0\opentelemetry-sdk-extension-autoconfigure-spi-1.9.0.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.9.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.9.0-alpha.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.9.0\opentelemetry-sdk-trace-1.9.0.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.9.0-alpha\opentelemetry-api-metrics-1.9.0-alpha.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.9.0\opentelemetry-sdk-1.9.0.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.9.0-alpha\opentelemetry-semconv-1.9.0-alpha.jar;C:\Users\vicky\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\vicky\.m2\repository\net\bytebuddy\byte-buddy\1.12.1\byte-buddy-1.12.1.jar;C:\Users\vicky\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\vicky\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\vicky\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\vicky\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\vicky\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\vicky\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\vicky\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\vicky\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.0\selenium-http-4.1.0.jar;C:\Users\vicky\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.0\selenium-safari-driver-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.0\selenium-support-4.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-core\7.1.0\cucumber-core-7.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-gherkin\7.1.0\cucumber-gherkin-7.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.1.0\cucumber-gherkin-messages-7.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\vicky\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\vicky\.m2\repository\io\cucumber\datatable\7.1.0\datatable-7.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-plugin\7.1.0\cucumber-plugin-7.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\docstring\7.1.0\docstring-7.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\create-meta\6.0.4\create-meta-6.0.4.jar;C:\Users\vicky\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\vicky\.m2\repository\net\sourceforge\cobertura\cobertura\2.1.1\cobertura-2.1.1.jar;C:\Users\vicky\.m2\repository\org\ow2\asm\asm\5.0.1\asm-5.0.1.jar;C:\Users\vicky\.m2\repository\org\ow2\asm\asm-tree\5.0.1\asm-tree-5.0.1.jar;C:\Users\vicky\.m2\repository\org\ow2\asm\asm-commons\5.0.1\asm-commons-5.0.1.jar;C:\Users\vicky\.m2\repository\org\ow2\asm\asm-util\5.0.1\asm-util-5.0.1.jar;C:\Users\vicky\.m2\repository\org\ow2\asm\asm-analysis\5.0.1\asm-analysis-5.0.1.jar;C:\Users\vicky\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\vicky\.m2\repository\jaxen\jaxen\1.1.4\jaxen-1.1.4.jar;C:\Users\vicky\.m2\repository\org\apache\ant\ant\1.8.3\ant-1.8.3.jar;C:\Users\vicky\.m2\repository\org\apache\ant\ant-launcher\1.8.3\ant-launcher-1.8.3.jar;C:\Users\vicky\.m2\repository\org\apache\ant\ant-junit\1.8.3\ant-junit-1.8.3.jar;C:\Users\vicky\.m2\repository\org\mortbay\jetty\servlet-api-2.5\6.1.14\servlet-api-2.5-6.1.14.jar;C:\Users\vicky\.m2\repository\org\mortbay\jetty\jetty\6.1.14\jetty-6.1.14.jar;C:\Users\vicky\.m2\repository\org\mortbay\jetty\jetty-util\6.1.14\jetty-util-6.1.14.jar;C:\Users\vicky\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\vicky\.m2\repository\ch\qos\logback\logback-classic\1.0.13\logback-classic-1.0.13.jar;C:\Users\vicky\.m2\repository\ch\qos\logback\logback-core\1.0.13\logback-core-1.0.13.jar;C:\Users\vicky\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-java\7.1.0\cucumber-java-7.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-junit\7.1.0\cucumber-junit-7.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\vicky\.m2\repository\net\masterthought\cucumber-reporting\5.6.1\cucumber-reporting-5.6.1.jar;C:\Users\vicky\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\vicky\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\vicky\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\vicky\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\Users\vicky\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\vicky\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\vicky\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar;C:\Users\vicky\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\vicky\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\vicky\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\vicky\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\vicky\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\vicky\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\vicky\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\vicky\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\vicky\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\vicky\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\vicky\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\vicky\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\vicky\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\vicky\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\vicky\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\vicky\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-java8\7.0.0\cucumber-java8-7.0.0.jar;C:\Users\vicky\.m2\repository\net\jodah\typetools\0.6.3\typetools-0.6.3.jar;C:\Users\vicky\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Program Files\Java\jdk1.8.0_311\lib\tools.jar;C:\Users\vicky\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\Users\vicky\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\vicky\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\Users\vicky\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\Users\vicky\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\Users\vicky\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\vicky\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\vicky\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\vicky\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\vicky\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\Users\vicky\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\Users\vicky\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\vicky\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\vicky\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\vicky\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\vicky\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\vicky\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\vicky\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\vicky\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vicky\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\vicky\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\vicky\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\vicky\AppData\Local\Temp\surefire938251925512665341\surefirebooter711599265641142354.jar C:\Users\vicky\AppData\Local\Temp\surefire938251925512665341 2021-12-16T13-57-02_431-jvmRun1 surefire7647941779047871073tmp surefire_05498447440955331857tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\vicky\eclipse-workspaceMavenDemo\SeleniumCucumber\target\test-classes;C:\Users\vicky\eclipse-workspaceMavenDemo\SeleniumCucumber\target\classes;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.0\selenium-java-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.0\selenium-api-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.0\selenium-chrome-driver-4.1.0.jar;C:\Users\vicky\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\vicky\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\vicky\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.0\selenium-chromium-driver-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.0\selenium-json-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.0\selenium-devtools-v85-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.1.0\selenium-devtools-v94-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.0\selenium-devtools-v95-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.0\selenium-devtools-v96-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.0\selenium-edge-driver-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.0\selenium-firefox-driver-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.0\selenium-firefox-xpi-driver-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.0\selenium-ie-driver-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.0\selenium-opera-driver-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.0\selenium-remote-driver-4.1.0.jar;C:\Users\vicky\.m2\repository\com\beust\jcommander\1.81\jcommander-1.81.jar;C:\Users\vicky\.m2\repository\io\netty\netty-buffer\4.1.69.Final\netty-buffer-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-codec-http\4.1.69.Final\netty-codec-http-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-codec\4.1.69.Final\netty-codec-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-handler\4.1.69.Final\netty-handler-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-common\4.1.69.Final\netty-common-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-transport-native-epoll\4.1.69.Final\netty-transport-native-epoll-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.69.Final\netty-transport-native-kqueue-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.69.Final\netty-transport-native-unix-common-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-transport\4.1.69.Final\netty-transport-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-resolver\4.1.69.Final\netty-resolver-4.1.69.Final.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-api\1.9.0\opentelemetry-api-1.9.0.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-context\1.9.0\opentelemetry-context-1.9.0.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.9.0\opentelemetry-exporter-logging-1.9.0.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.9.0-alpha\opentelemetry-sdk-metrics-1.9.0-alpha.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.9.0-alpha\opentelemetry-sdk-logs-1.9.0-alpha.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.9.0\opentelemetry-sdk-common-1.9.0.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.9.0\opentelemetry-sdk-extension-autoconfigure-spi-1.9.0.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.9.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.9.0-alpha.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.9.0\opentelemetry-sdk-trace-1.9.0.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.9.0-alpha\opentelemetry-api-metrics-1.9.0-alpha.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.9.0\opentelemetry-sdk-1.9.0.jar;C:\Users\vicky\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.9.0-alpha\opentelemetry-semconv-1.9.0-alpha.jar;C:\Users\vicky\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\vicky\.m2\repository\net\bytebuddy\byte-buddy\1.12.1\byte-buddy-1.12.1.jar;C:\Users\vicky\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\vicky\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\vicky\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\vicky\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\vicky\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\vicky\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\vicky\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\vicky\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\vicky\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.0\selenium-http-4.1.0.jar;C:\Users\vicky\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.0\selenium-safari-driver-4.1.0.jar;C:\Users\vicky\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.0\selenium-support-4.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-core\7.1.0\cucumber-core-7.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-gherkin\7.1.0\cucumber-gherkin-7.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.1.0\cucumber-gherkin-messages-7.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\vicky\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\vicky\.m2\repository\io\cucumber\datatable\7.1.0\datatable-7.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-plugin\7.1.0\cucumber-plugin-7.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\docstring\7.1.0\docstring-7.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\create-meta\6.0.4\create-meta-6.0.4.jar;C:\Users\vicky\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\vicky\.m2\repository\net\sourceforge\cobertura\cobertura\2.1.1\cobertura-2.1.1.jar;C:\Users\vicky\.m2\repository\org\ow2\asm\asm\5.0.1\asm-5.0.1.jar;C:\Users\vicky\.m2\repository\org\ow2\asm\asm-tree\5.0.1\asm-tree-5.0.1.jar;C:\Users\vicky\.m2\repository\org\ow2\asm\asm-commons\5.0.1\asm-commons-5.0.1.jar;C:\Users\vicky\.m2\repository\org\ow2\asm\asm-util\5.0.1\asm-util-5.0.1.jar;C:\Users\vicky\.m2\repository\org\ow2\asm\asm-analysis\5.0.1\asm-analysis-5.0.1.jar;C:\Users\vicky\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\vicky\.m2\repository\jaxen\jaxen\1.1.4\jaxen-1.1.4.jar;C:\Users\vicky\.m2\repository\org\apache\ant\ant\1.8.3\ant-1.8.3.jar;C:\Users\vicky\.m2\repository\org\apache\ant\ant-launcher\1.8.3\ant-launcher-1.8.3.jar;C:\Users\vicky\.m2\repository\org\apache\ant\ant-junit\1.8.3\ant-junit-1.8.3.jar;C:\Users\vicky\.m2\repository\org\mortbay\jetty\servlet-api-2.5\6.1.14\servlet-api-2.5-6.1.14.jar;C:\Users\vicky\.m2\repository\org\mortbay\jetty\jetty\6.1.14\jetty-6.1.14.jar;C:\Users\vicky\.m2\repository\org\mortbay\jetty\jetty-util\6.1.14\jetty-util-6.1.14.jar;C:\Users\vicky\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\vicky\.m2\repository\ch\qos\logback\logback-classic\1.0.13\logback-classic-1.0.13.jar;C:\Users\vicky\.m2\repository\ch\qos\logback\logback-core\1.0.13\logback-core-1.0.13.jar;C:\Users\vicky\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-java\7.1.0\cucumber-java-7.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-junit\7.1.0\cucumber-junit-7.1.0.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\vicky\.m2\repository\net\masterthought\cucumber-reporting\5.6.1\cucumber-reporting-5.6.1.jar;C:\Users\vicky\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\vicky\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\vicky\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\vicky\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\Users\vicky\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\vicky\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\vicky\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar;C:\Users\vicky\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\vicky\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\vicky\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\vicky\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\vicky\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\vicky\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\vicky\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\vicky\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\vicky\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\vicky\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\vicky\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\vicky\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\vicky\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\vicky\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\vicky\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\vicky\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\vicky\.m2\repository\io\cucumber\cucumber-java8\7.0.0\cucumber-java8-7.0.0.jar;C:\Users\vicky\.m2\repository\net\jodah\typetools\0.6.3\typetools-0.6.3.jar;C:\Users\vicky\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Program Files\Java\jdk1.8.0_311\lib\tools.jar;C:\Users\vicky\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\Users\vicky\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\vicky\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\Users\vicky\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\Users\vicky\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\Users\vicky\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\vicky\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\vicky\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\vicky\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\vicky\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\Users\vicky\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\Users\vicky\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\vicky\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\vicky\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\vicky\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\vicky\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\vicky\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\vicky\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\vicky\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vicky\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\vicky\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\vicky\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vicky"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_311\jre"/>
+    <property name="basedir" value="C:\Users\vicky\eclipse-workspaceMavenDemo\SeleniumCucumber"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\vicky\AppData\Local\Temp\surefire938251925512665341\surefirebooter711599265641142354.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_311\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_311-b11"/>
+    <property name="user.name" value="vicky"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.nio.ch.bugLevel" value=""/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\vicky\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\vicky\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_311"/>
+    <property name="user.dir" value="C:\Users\vicky\eclipse-workspaceMavenDemo\SeleniumCucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/eclipse-java-2021-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin/server;C:/eclipse-java-2021-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_311\bin;C:\Program Files\php-8;C:\apache-maven-3.8.3-bin\apache-maven-3.8.3\bin;C:\Program Files\Git\cmd;C:\Users\vicky\AppData\Local\Microsoft\WindowsApps;;C:\eclipse-java-2021-09-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.311-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Add a new Customer" classname="Customers" time="46.363">
+    <system-out><![CDATA[
+@AddCustomer
+Scenario: Add a new Customer                                                             # Features/Customers.feature:13
+[DEBUG] Removing resolution chrome=96 from cache (expired on Mon Dec 06 02:32:31 IST 2021)
+[DEBUG] ex-00000001: preparing request execution
+[DEBUG] Cookie spec selected: strict
+[DEBUG] Auth cache not set in the context
+[DEBUG] ex-00000001: target auth state: UNCHALLENGED
+[DEBUG] ex-00000001: proxy auth state: UNCHALLENGED
+[DEBUG] ex-00000001: acquiring connection with route {s}->https://raw.githubusercontent.com:443
+[DEBUG] ex-00000001: acquiring endpoint (3 MINUTES)
+[DEBUG] ex-00000001: endpoint lease request (3 MINUTES) [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+[DEBUG] ex-00000001: endpoint leased [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+[DEBUG] ex-00000001: acquired ep-00000000
+[DEBUG] ex-00000001: acquired endpoint ep-00000000
+[DEBUG] ex-00000001: opening connection {s}->https://raw.githubusercontent.com:443
+[DEBUG] ep-00000000: connecting endpoint (30 SECONDS)
+[DEBUG] ep-00000000: connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
+[DEBUG] http-outgoing-0: connecting to raw.githubusercontent.com/185.199.108.133:443
+[DEBUG] Connecting socket to raw.githubusercontent.com/185.199.108.133:443 with timeout 30 SECONDS
+[DEBUG] Enabled protocols: [TLSv1.2]
+[DEBUG] Enabled cipher suites: [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[DEBUG] Starting handshake
+[DEBUG] Secure session established
+[DEBUG]  negotiated protocol: TLSv1.2
+[DEBUG]  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[DEBUG]  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+[DEBUG]  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+[DEBUG]  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+[DEBUG] http-outgoing-0: connection established 192.168.1.103:50930<->185.199.108.133:443
+[DEBUG] ep-00000000: connected http-outgoing-0
+[DEBUG] ep-00000000: endpoint connected
+[DEBUG] ex-00000001: executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+[DEBUG] ep-00000000: start execution ex-00000001
+[DEBUG] ep-00000000: executing exchange ex-00000001 over http-outgoing-0
+[DEBUG] http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+[DEBUG] http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
+[DEBUG] http-outgoing-0 >> accept-encoding: gzip, deflate, br
+[DEBUG] http-outgoing-0 >> cache-control: max-age=0
+[DEBUG] http-outgoing-0 >> connection: keep-alive
+[DEBUG] http-outgoing-0 >> Host: raw.githubusercontent.com
+[DEBUG] http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
+[DEBUG] http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
+[DEBUG] http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
+[DEBUG] http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
+[DEBUG] http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+[DEBUG] http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+[DEBUG] http-outgoing-0 >> "[\r][\n]"
+[DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[DEBUG] http-outgoing-0 << "Content-Length: 728[\r][\n]"
+[DEBUG] http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+[DEBUG] http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+[DEBUG] http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[DEBUG] http-outgoing-0 << "ETag: W/"f670816d6bfbef80584dadbb549bb9c4ccd5de869d5b63cc2a694a74613014b5"[\r][\n]"
+[DEBUG] http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-GitHub-Request-Id: 7960:154A:4B392F:5F94DC:61BA7CC2[\r][\n]"
+[DEBUG] http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] http-outgoing-0 << "Date: Thu, 16 Dec 2021 08:27:07 GMT[\r][\n]"
+[DEBUG] http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Served-By: cache-maa10231-MAA[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Cache-Hits: 2[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Timer: S1639643228.817759,VS0,VE0[\r][\n]"
+[DEBUG] http-outgoing-0 << "Vary: Authorization,Accept-Encoding,Origin[\r][\n]"
+[DEBUG] http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] http-outgoing-0 << "X-Fastly-Request-ID: 36eff2a9290544997d5736479f5562a794fa9b5e[\r][\n]"
+[DEBUG] http-outgoing-0 << "Expires: Thu, 16 Dec 2021 08:32:07 GMT[\r][\n]"
+[DEBUG] http-outgoing-0 << "Source-Age: 104[\r][\n]"
+[DEBUG] http-outgoing-0 << "[\r][\n]"
+[DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+[DEBUG] http-outgoing-0 << Connection: keep-alive
+[DEBUG] http-outgoing-0 << Content-Length: 728
+[DEBUG] http-outgoing-0 << Cache-Control: max-age=300
+[DEBUG] http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+[DEBUG] http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+[DEBUG] http-outgoing-0 << ETag: W/"f670816d6bfbef80584dadbb549bb9c4ccd5de869d5b63cc2a694a74613014b5"
+[DEBUG] http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+[DEBUG] http-outgoing-0 << X-Content-Type-Options: nosniff
+[DEBUG] http-outgoing-0 << X-Frame-Options: deny
+[DEBUG] http-outgoing-0 << X-XSS-Protection: 1; mode=block
+[DEBUG] http-outgoing-0 << X-GitHub-Request-Id: 7960:154A:4B392F:5F94DC:61BA7CC2
+[DEBUG] http-outgoing-0 << Content-Encoding: gzip
+[DEBUG] http-outgoing-0 << Accept-Ranges: bytes
+[DEBUG] http-outgoing-0 << Date: Thu, 16 Dec 2021 08:27:07 GMT
+[DEBUG] http-outgoing-0 << Via: 1.1 varnish
+[DEBUG] http-outgoing-0 << X-Served-By: cache-maa10231-MAA
+[DEBUG] http-outgoing-0 << X-Cache: HIT
+[DEBUG] http-outgoing-0 << X-Cache-Hits: 2
+[DEBUG] http-outgoing-0 << X-Timer: S1639643228.817759,VS0,VE0
+[DEBUG] http-outgoing-0 << Vary: Authorization,Accept-Encoding,Origin
+[DEBUG] http-outgoing-0 << Access-Control-Allow-Origin: *
+[DEBUG] http-outgoing-0 << X-Fastly-Request-ID: 36eff2a9290544997d5736479f5562a794fa9b5e
+[DEBUG] http-outgoing-0 << Expires: Thu, 16 Dec 2021 08:32:07 GMT
+[DEBUG] http-outgoing-0 << Source-Age: 104
+[DEBUG] ex-00000001: connection can be kept alive for 3 MINUTES
+[DEBUG] http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]V]o[0xffffffda]0[0x14]}[0xffffffe7]W\[0xffffff81]*[0xffffffb5][0x12][0x1f][[M[0xffffffd3]$[0x1e]hF[0xffffffbb]i [0x18][0xffffffb4][0xffffffdd]&[0xfffffff9][0xffffffc5]Mn[0xffffff82][0xffffffa5]$Fv([0xffffffed]~[0xfffffffd]l[0xffffffe7]c$u[0x6]k[0xffffffe8][l_[0xffffff9f]s|[0xffffffef]q|;[0xffffffe0][0xfffffff0]([0xffffffa2][0xffffffb1]'[0xffffffc1][0xffffffa3][0x9]}[0xffffffa0][0x12][[0x1d][0xffffffb8]]1[0x9]>[0xb][0x11]\[0x1e]'[0xffffff94][0xffffffc5][0x12][0xffffff92][0xffffff95][0x1e]d[0xffffffa1][0x9][0xffffff87][0x7][0x4]|Bw[0xffffff93][0xffffffa0][0x7],6[0xffffffcb]r[0xffffff85]a[0xffffffa8][0x7]\x(t[0xffffff90][0xffffff87][0x9][0xffffffba][0xffffff89]Y|D![0x19]Wk>[0xffffffa0][0xfffffffa][0xe][0x4]b[0xc][0xf][0xffffff82]o[0xffffffa5]ZP[0xffffff94][0xffffffa7][0xffffffce]J[0xfffffff0][0x8][0xffffffbb]p[0xffffffcd][0x4][0xfffffffa][0xfffffffc][0xffffffa9][0xb][0xffffffb3]5[\n]"
+[DEBUG] http-outgoing-0 << "[0xffffffda][0xffffff85][0xffffffb1][0x17][0xffffffa8]Y[0xffffffb3][0xffffffca]6[0xffffffd1][0xffffff99][0xffffffc6][0xfffffff7][0xffffff98][0xffffffef][0xffffffa3][0xffffffc0]8[0x1][0xffffffae]c[0x12][0x16][0x7] [0xffffff9f]e[0xffffff82][0xffffff91][0xffffff84][0xffffffd3][0x1f],[0xfffffff6][0x14]j[0x17]&,[0xffffffde]([0xffffff98])ua[0xffffffb6]<k)[0xffffff8e][0xffffff94][0xffffffa2][0xffffff95][0x1d][0xffffffa3][0xffffffef][0xffffff9a]a[0x7f][0xffffff9b]n[0xffffffe8][0xffffffbf]{?t#[0xffffffaf][0xffffffaf]N[0x5][0x3][0x7][0xffffffb6][0x11]sMJL[0x1a][0xffffffb6]+[0xffffffc5][0x7]1[0xffffff8d]p[0xffffffd8]>[0xffffff99]/f7[0xffffff8b][0xffffffd1][0xfffffff4][0xfffffffa][0xffffffeb]d[0xffffffbc]<[0xfffffffd][0xfffffff9][0xfffffff1][0xffffffc3][0xffffffd9]'2$[0xffffffe4][0xffffff84][0xffffff90][0x1b][0xffffffce][0xffffff83][0x10][0x9]Iy[0x8][0x19][0xffffffad][0xffffffd7]!s[0xffffff95]>[0x1e][0x13][0xffffff92][0xffffffb1])[0xfffffff8]6[0x4][0xffffff98][0xffffffc0]}[0xffffff96][0xffffff90][0xffffffc1]#[\r]7[0xfffffff5][0xffffffa2][0xffffffce][0xf][0x14]5[0xffffff99]9[0xffffffa3][0xffffffc9]h>[0xffffffff]<[0xffffffba][0x1d][0xffffffbd][0xffffffa5][0xffffff9e][0xffffff8b]W$[0xffffffe9]-[0xfffffff5]\[0xe][0x17][0xffffffe3][0x1b][0xfffffff8]~7^[0xfffffffc][0xffffff82]/[0xffffffdf][0xffffff9c];[0xffffffb2][0xffffffe4]~[0xffffffb2][0xffffffa5][0x2]s[0xffffffb6][0xffffff8c][0xffffffec]jr[0xffffff85][0xffffffd4]5x[0xffffffb9][0x17][U[0xffffffd0]P;F[0xfffffffb] 0[{[0xffffffe9]4[0xfffffff4]zu[0x1b]"[0xffffffea][0xffffffea][0xfffffff0][0xffffffc1][0xffffffce]A[0xffffffe4] [0xffffffe5][0xffffffcd][0xffffffcc][0xffffffd6][0xffffffa7][0xffffffeb][0xfffffff5][0xffffffc0]Q[0xffffff97]H[0xffffffb9]U[0xe][0xffffff94][0x17]g[0xffffffcb]r[0xffffffc0].[0xffffffba][0xffffffb2]h[0xffffffe6][0xfffffffe][0xffffff82][0xffffffc8]O[0xffffffc7][0xffffffcd]L[0xffffff9a][0xffffffe7][0x7f][0xffffffca][0x7f][0xffffffb3]0[0xffffffa4]9[0x9]!9[0xfffffffa][0xffffffbe][0xffffffa4][0xffffffbf]Pq[0xffffffa8]+k[0xffffffaf][0xffffffca][0xfffffff1][0xffffffa4]\[0xffffffec][0x18][0xffffffa0]]v@FR%kk[0xf]8[0x1b][0xffffffa1][0xffffffff] [0xfffffff7][0xffffffd5][0xffffffca][0xffffffe6][0xfffffff8][0xffffff85][0x17][0xffffffb2][0x9][0xffffffe8]=[0xffffffbe][0xc][0xffffffb2][0xffffffd6]?c[0xffffffb1]U~[0x17]K[0x15][[0xffffffff][0xffffffda][\n]"
+[DEBUG] http-outgoing-0 << "LT[0xffffff83]#[0xfffffffe][0xffffff8b][0xffffffa6][0xffffffcc][0x15]\[0xffffffaa]L[0x10][0xffffffa2]i*[0xffffff97]-[0xffffff92][0xffffff86]n_[0xffffffb2][0xffffffcb][0xffffff9a]^S[0xfffffff4]7[0xffffff94]sQ{[0xfffffff3][0xffffffff][0xffffff92][0x19][0xffffffae][0x7f]^}[0xffffff83]Y[0x14];[0xffffffca]w[0xfffffff6][0xfffffff4][0xffffffbc][0xffffffed][0xffffffe6][0xffffff9b]xk[0xffffffdd][0xb]VSW[[0xfffffff9][0xffffffcb][0x11]P[0xffffffba][0xfffffff8][0xffffffe6][0xffffffb5]+X[0xffffffcc][0xffffffbb][0xfffffff6][0xffffffff]n[0xffffffb0]=[0x2]s[0xffffffc1][0x3]A#I[0xffffff88][0xffffffa1] $[0xffffffa4][0xffffff9b][0xffffffd8]U[0xffffffbb][0xfffffff6][0xffffffa6][0xffffffbb]"[0xffffffa2]I[0xfffffff9][0xffffff8f]&[0xffffffe2][0xffffffd0][0xffffffe7][0xffffffc7][0xffffff96][0xffffff89][0xffffff86][0xffffffd4][0xffffff97][\r][0xffffffce][0x7f](u[0xffffff85][0xffffffbb][0xfffffff0][0xffffffa5][0x19][0xffffffda][0xffffffec][0xffffff98][0xffffffc6]Y[0xfffffffd]h8m6[0xffffff9c]U[0xffffffc1][0xfffffff2][0xffffffd6]H[0xfffffff5]W[0xffffffe5][0x17]NM[0x1c][0xffffffc7][0xffffff84]9|[0xffffff83]7[0xffffffbf][0xffffffa4][0xffffffa5][0xfffffff1][0xfffffffb]slAM[0xffffffda][0xffffffa2]ck[0xffffffa9]o[0xffffff89][\n]"
+[DEBUG] http-outgoing-0 << "[0xffffffa6][0xfffffffd][0xffffffdd][0xffffff90]F,[0xffffffec][0xffffff97][0xffffffcf][0xfffffff4][0xffffffb2][0xffffff86]}[0xffffffc7]<u[0xffffff9b][0xffffffce][0xffffff8b]M[0xffffffb5][0xfffffffd][0xffffff93][0xffffff8e][0xffffffb6]:7[0xffffff97]i3[0xffffffaf]cA[0xffffffed][0xffffffc0][0xffffff92][0xfffffffa]T[0xffffffb0][0x2]^[0xffffff9a][0xffffffa1][0x1d]<[\r][0xffffffb5]A[0xffffffa7]+;[0xffffffc0][0x7f][0x0][0xffffffb2]$|[0xffffff88][0x1d][\r][0x0][0x0]"
+[DEBUG] ep-00000000: releasing valid endpoint
+[DEBUG] ep-00000000: releasing endpoint
+[DEBUG] ep-00000000: connection http-outgoing-0 can be kept alive for 3 MINUTES
+[DEBUG] ep-00000000: connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+[DEBUG] Detecting chrome version using online commands.properties
+[DEBUG] Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%PROGRAMFILES(X86):\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+[DEBUG] Result: 
+[DEBUG] Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%LOCALAPPDATA:\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+[DEBUG] Result: 
+[DEBUG] Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%PROGRAMFILES:\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+[DEBUG] Result: Version=96.0.4664.45
+[DEBUG] Removing resolution chrome96=96.0.4664.45 from cache (expired on Mon Dec 06 22:06:50 IST 2021)
+[DEBUG] ex-00000002: preparing request execution
+[DEBUG] Cookie spec selected: strict
+[DEBUG] Auth cache not set in the context
+[DEBUG] ex-00000002: target auth state: UNCHALLENGED
+[DEBUG] ex-00000002: proxy auth state: UNCHALLENGED
+[DEBUG] ex-00000002: acquiring connection with route {s}->https://chromedriver.storage.googleapis.com:443
+[DEBUG] ex-00000002: acquiring endpoint (3 MINUTES)
+[DEBUG] ex-00000002: endpoint lease request (3 MINUTES) [route: {s}->https://chromedriver.storage.googleapis.com:443][total available: 1; route allocated: 0 of 5; total allocated: 1 of 25]
+[DEBUG] ex-00000002: endpoint leased [route: {s}->https://chromedriver.storage.googleapis.com:443][total available: 1; route allocated: 1 of 5; total allocated: 2 of 25]
+[DEBUG] ex-00000002: acquired ep-00000001
+[DEBUG] ex-00000002: acquired endpoint ep-00000001
+[DEBUG] ex-00000002: opening connection {s}->https://chromedriver.storage.googleapis.com:443
+[DEBUG] ep-00000001: connecting endpoint (30 SECONDS)
+[DEBUG] ep-00000001: connecting endpoint to https://chromedriver.storage.googleapis.com:443 (30 SECONDS)
+[DEBUG] http-outgoing-1: connecting to chromedriver.storage.googleapis.com/142.250.183.144:443
+[DEBUG] Connecting socket to chromedriver.storage.googleapis.com/142.250.183.144:443 with timeout 30 SECONDS
+[DEBUG] Enabled protocols: [TLSv1.2]
+[DEBUG] Enabled cipher suites: [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[DEBUG] Starting handshake
+[DEBUG] Secure session established
+[DEBUG]  negotiated protocol: TLSv1.2
+[DEBUG]  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+[DEBUG]  peer principal: CN=*.storage.googleapis.com
+[DEBUG]  peer alternative names: [*.storage.googleapis.com, *.googleapis.com, commondatastorage.googleapis.com, *.commondatastorage.googleapis.com, storage.googleapis.com, storage.mtls.googleapis.com, *.appspot.com.storage.googleapis.com, *.content-storage.googleapis.com, *.content-storage-p2.googleapis.com, *.content-storage-upload.googleapis.com, *.content-storage-download.googleapis.com, *.storage-upload.googleapis.com, *.storage-download.googleapis.com]
+[DEBUG]  issuer principal: CN=GTS CA 1C3, O=Google Trust Services LLC, C=US
+[DEBUG] http-outgoing-1: connection established 192.168.1.103:50931<->142.250.183.144:443
+[DEBUG] ep-00000001: connected http-outgoing-1
+[DEBUG] ep-00000001: endpoint connected
+[DEBUG] ex-00000002: executing GET /LATEST_RELEASE_96 HTTP/1.1
+[DEBUG] ep-00000001: start execution ex-00000002
+[DEBUG] ep-00000001: executing exchange ex-00000002 over http-outgoing-1
+[DEBUG] http-outgoing-1 >> GET /LATEST_RELEASE_96 HTTP/1.1
+[DEBUG] http-outgoing-1 >> user-agent: Apache-HttpClient/5.0
+[DEBUG] http-outgoing-1 >> accept-encoding: gzip, deflate, br
+[DEBUG] http-outgoing-1 >> cache-control: max-age=0
+[DEBUG] http-outgoing-1 >> connection: keep-alive
+[DEBUG] http-outgoing-1 >> Host: chromedriver.storage.googleapis.com
+[DEBUG] http-outgoing-1 >> "GET /LATEST_RELEASE_96 HTTP/1.1[\r][\n]"
+[DEBUG] http-outgoing-1 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
+[DEBUG] http-outgoing-1 >> "accept-encoding: gzip, deflate, br[\r][\n]"
+[DEBUG] http-outgoing-1 >> "cache-control: max-age=0[\r][\n]"
+[DEBUG] http-outgoing-1 >> "connection: keep-alive[\r][\n]"
+[DEBUG] http-outgoing-1 >> "Host: chromedriver.storage.googleapis.com[\r][\n]"
+[DEBUG] http-outgoing-1 >> "[\r][\n]"
+[DEBUG] http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] http-outgoing-1 << "X-GUploader-UploadID: ADPycdttJ4kB0-qxpJ754u-gXceZTTClbXaxwfjkwLGUYcOpb-9fNCo02MP29EwHXV84lIp-Z7DX0EZBdI4MVnMWAdAgPjZSVQ[\r][\n]"
+[DEBUG] http-outgoing-1 << "Expires: Thu, 16 Dec 2021 08:55:22 GMT[\r][\n]"
+[DEBUG] http-outgoing-1 << "Date: Thu, 16 Dec 2021 07:55:22 GMT[\r][\n]"
+[DEBUG] http-outgoing-1 << "Last-Modified: Tue, 16 Nov 2021 09:36:03 GMT[\r][\n]"
+[DEBUG] http-outgoing-1 << "ETag: "2aa8941e6db48cc78e86089c7e9e9dfc"[\r][\n]"
+[DEBUG] http-outgoing-1 << "x-goog-generation: 1637055363777499[\r][\n]"
+[DEBUG] http-outgoing-1 << "x-goog-metageneration: 1[\r][\n]"
+[DEBUG] http-outgoing-1 << "x-goog-stored-content-encoding: identity[\r][\n]"
+[DEBUG] http-outgoing-1 << "x-goog-stored-content-length: 12[\r][\n]"
+[DEBUG] http-outgoing-1 << "Content-Type: text/plain[\r][\n]"
+[DEBUG] http-outgoing-1 << "x-goog-hash: crc32c=xQfrLQ==[\r][\n]"
+[DEBUG] http-outgoing-1 << "x-goog-hash: md5=KqiUHm20jMeOhgicfp6d/A==[\r][\n]"
+[DEBUG] http-outgoing-1 << "x-goog-storage-class: STANDARD[\r][\n]"
+[DEBUG] http-outgoing-1 << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] http-outgoing-1 << "Content-Length: 12[\r][\n]"
+[DEBUG] http-outgoing-1 << "Server: UploadServer[\r][\n]"
+[DEBUG] http-outgoing-1 << "Age: 1909[\r][\n]"
+[DEBUG] http-outgoing-1 << "Cache-Control: public, max-age=3600[\r][\n]"
+[DEBUG] http-outgoing-1 << "Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"[\r][\n]"
+[DEBUG] http-outgoing-1 << "[\r][\n]"
+[DEBUG] http-outgoing-1 << "96.0.4664.45"
+[DEBUG] http-outgoing-1 << HTTP/1.1 200 OK
+[DEBUG] http-outgoing-1 << X-GUploader-UploadID: ADPycdttJ4kB0-qxpJ754u-gXceZTTClbXaxwfjkwLGUYcOpb-9fNCo02MP29EwHXV84lIp-Z7DX0EZBdI4MVnMWAdAgPjZSVQ
+[DEBUG] http-outgoing-1 << Expires: Thu, 16 Dec 2021 08:55:22 GMT
+[DEBUG] http-outgoing-1 << Date: Thu, 16 Dec 2021 07:55:22 GMT
+[DEBUG] http-outgoing-1 << Last-Modified: Tue, 16 Nov 2021 09:36:03 GMT
+[DEBUG] http-outgoing-1 << ETag: "2aa8941e6db48cc78e86089c7e9e9dfc"
+[DEBUG] http-outgoing-1 << x-goog-generation: 1637055363777499
+[DEBUG] http-outgoing-1 << x-goog-metageneration: 1
+[DEBUG] http-outgoing-1 << x-goog-stored-content-encoding: identity
+[DEBUG] http-outgoing-1 << x-goog-stored-content-length: 12
+[DEBUG] http-outgoing-1 << Content-Type: text/plain
+[DEBUG] http-outgoing-1 << x-goog-hash: crc32c=xQfrLQ==
+[DEBUG] http-outgoing-1 << x-goog-hash: md5=KqiUHm20jMeOhgicfp6d/A==
+[DEBUG] http-outgoing-1 << x-goog-storage-class: STANDARD
+[DEBUG] http-outgoing-1 << Accept-Ranges: bytes
+[DEBUG] http-outgoing-1 << Content-Length: 12
+[DEBUG] http-outgoing-1 << Server: UploadServer
+[DEBUG] http-outgoing-1 << Age: 1909
+[DEBUG] http-outgoing-1 << Cache-Control: public, max-age=3600
+[DEBUG] http-outgoing-1 << Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+[DEBUG] ex-00000002: connection can be kept alive for 3 MINUTES
+[DEBUG] ep-00000001: releasing valid endpoint
+[DEBUG] ep-00000001: releasing endpoint
+[DEBUG] ep-00000001: connection http-outgoing-1 can be kept alive for 3 MINUTES
+[DEBUG] ep-00000001: connection released [route: {s}->https://chromedriver.storage.googleapis.com:443][total available: 2; route allocated: 1 of 5; total allocated: 2 of 25]
+[DEBUG] Latest version of chromedriver according to https://chromedriver.storage.googleapis.com/LATEST_RELEASE_96 is 96.0.4664.45
+[INFO] Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+[DEBUG] Storing resolution chrome=96 in cache (valid until 14:57:11 16/12/2021 IST)
+[DEBUG] Storing resolution chrome96=96.0.4664.45 in cache (valid until 13:57:11 17/12/2021 IST)
+[DEBUG] Driver chromedriver 96.0.4664.45 found in cache
+[INFO] Exporting webdriver.chrome.driver as C:\Users\vicky\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+[DEBUG] Using SLF4J as the default logging framework
+[DEBUG] -Dio.netty.leakDetection.level: simple
+[DEBUG] -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@26a2f7f9
+[DEBUG] -Dio.netty.noUnsafe: false
+[DEBUG] Java version: 8
+[DEBUG] sun.misc.Unsafe.theUnsafe: available
+[DEBUG] sun.misc.Unsafe.copyMemory: available
+[DEBUG] java.nio.Buffer.address: available
+[DEBUG] direct buffer constructor: available
+[DEBUG] java.nio.Bits.unaligned: available, true
+[DEBUG] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] sun.misc.Unsafe: available
+[DEBUG] -Dio.netty.tmpdir: C:\Users\vicky\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] Platform: Windows
+[DEBUG] -Dio.netty.maxDirectMemory: 1760034816 bytes
+[DEBUG] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] java.nio.ByteBuffer.cleaner(): available
+[DEBUG] -Dio.netty.noPreferDirect: false
+[DEBUG] org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] Default protocols (JDK): [TLSv1.2] 
+[DEBUG] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] -Dio.netty.eventLoopThreads: 16
+[DEBUG] -Dio.netty.noKeySetOptimization: false
+[DEBUG] -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] -Dio.netty.allocator.numHeapArenas: 16
+[DEBUG] -Dio.netty.allocator.numDirectArenas: 16
+[DEBUG] -Dio.netty.allocator.pageSize: 8192
+[DEBUG] -Dio.netty.allocator.maxOrder: 11
+[DEBUG] -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] -Dio.netty.allocator.type: pooled
+[DEBUG] -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] -Dio.netty.processId: 11232 (auto-detected)
+[DEBUG] -Djava.net.preferIPv4Stack: false
+[DEBUG] -Djava.net.preferIPv6Addresses: false
+[DEBUG] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] -Dio.netty.machineId: 74:4c:a1:ff:fe:ad:cd:97 (auto-detected)
+[DEBUG] -Dio.netty.buffer.checkAccessible: true
+[DEBUG] -Dio.netty.buffer.checkBounds: true
+[DEBUG] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@15e7e4b
+[DEBUG] Using new Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to '/session'
+[DEBUG] -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] -Dio.netty.recycler.ratio: 8
+[DEBUG] -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 365
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 787
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using new Channel '[id: 0xdd4f6c7f, L:/127.0.0.1:50974 - R:localhost/127.0.0.1:50967]' for 'GET' to '/json/version'
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+host: localhost:50967
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+content-length: 424
+
+[DEBUG] Adding key: http://localhost:50967 for channel [id: 0xdd4f6c7f, L:/127.0.0.1:50974 - R:localhost/127.0.0.1:50967]
+[DEBUG] -Dio.netty.initialSeedUniquifier: 0xbcd4138c8cb4d6a5
+[DEBUG] Using new Channel '[id: 0x1f04a348, L:/127.0.0.1:50975 - R:localhost/127.0.0.1:50967]' for 'GET' to '/devtools/browser/bb12d85f-b7d1-4fae-881f-8cfbada7c0e0'
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/bb12d85f-b7d1-4fae-881f-8cfbada7c0e0 HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: fTDkhAd3vTn/Y/pafAIc1A==
+sec-websocket-version: 13
+origin: http://localhost:50967
+host: localhost:50967
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: IbECFv2lIACUXQA1lgALqU6Wa4Q=
+
+  Given User launch chrome browser                                                       # stepDefinitions.VerifyTitleSteps.user_launch_chrome_browser()
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/url'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/url'
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/url HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 92
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/window/maximize'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/window/maximize'
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/window/maximize HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 51
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+  When User opens url "https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F"   # stepDefinitions.VerifyTitleSteps.opensUrl(java.lang.String)
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/139db923-2b16-4654-8e6d-9ad0f20f9444/clear'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element/139db923-2b16-4654-8e6d-9ad0f20f9444/clear'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element/139db923-2b16-4654-8e6d-9ad0f20f9444/clear HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/139db923-2b16-4654-8e6d-9ad0f20f9444/value'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element/139db923-2b16-4654-8e6d-9ad0f20f9444/value'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element/139db923-2b16-4654-8e6d-9ad0f20f9444/value HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 271
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/a3677acd-65f6-4387-b304-a4bbeea9ccf2/clear'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element/a3677acd-65f6-4387-b304-a4bbeea9ccf2/clear'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element/a3677acd-65f6-4387-b304-a4bbeea9ccf2/clear HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/a3677acd-65f6-4387-b304-a4bbeea9ccf2/value'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element/a3677acd-65f6-4387-b304-a4bbeea9ccf2/value'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element/a3677acd-65f6-4387-b304-a4bbeea9ccf2/value HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 131
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+  And user enters email as "admin@yourstore.com" and password as "admin"                 # stepDefinitions.VerifyTitleSteps.enterLoginCredentials(java.lang.String,java.lang.String)
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 62
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/3e5cd4cb-6f17-4b10-95bd-2276e3fbd563/click'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element/3e5cd4cb-6f17-4b10-95bd-2276e3fbd563/click'
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element/3e5cd4cb-6f17-4b10-95bd-2276e3fbd563/click HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Entry count for : http://localhost:58199 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:58199 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+  And User clicks on login                                                               # stepDefinitions.VerifyTitleSteps.clickLogin()
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'GET' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/title'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for GET '/session/043deac6fffd149313577ac82e4338c5/title'
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/043deac6fffd149313577ac82e4338c5/title HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 50
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+  Then User can view Dashboard                                                           # stepDefinitions.VerifyTitleSteps.user_can_view_dashboard()
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 111
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/006c1985-4134-42c7-9fa2-6e743977e914/click'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element/006c1985-4134-42c7-9fa2-6e743977e914/click'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element/006c1985-4134-42c7-9fa2-6e743977e914/click HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Entry count for : http://localhost:58199 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+  When User clicks on Customers menu                                                     # stepDefinitions.VerifyTitleSteps.user_clicks_on_customers_menu()
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 132
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/0351e8a3-9304-4574-b4c3-a258c908e849/click'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element/0351e8a3-9304-4574-b4c3-a258c908e849/click'
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element/0351e8a3-9304-4574-b4c3-a258c908e849/click HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Entry count for : http://localhost:58199 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+  And User clicks on customers menu item                                                 # stepDefinitions.VerifyTitleSteps.user_clicks_on_customers_menu_item()
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 97
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/fc11c06a-4e75-415f-89bf-da0b3bf82b69/click'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element/fc11c06a-4e75-415f-89bf-da0b3bf82b69/click'
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element/fc11c06a-4e75-415f-89bf-da0b3bf82b69/click HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Entry count for : http://localhost:58199 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:58199 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+  And User clicks on Add new button                                                      # stepDefinitions.VerifyTitleSteps.user_clicks_on_add_new_button()
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'GET' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/title'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for GET '/session/043deac6fffd149313577ac82e4338c5/title'
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/043deac6fffd149313577ac82e4338c5/title HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 59
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+  Then User can see Add a new Customer page                                              # stepDefinitions.VerifyTitleSteps.user_can_see_add_a_new_customer_page()
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/64bae28b-62d0-46c7-a5b1-7662fd012bc3/value'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element/64bae28b-62d0-46c7-a5b1-7662fd012bc3/value'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element/64bae28b-62d0-46c7-a5b1-7662fd012bc3/value HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 231
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/c66487bf-6f32-4883-ba10-a3482ab1a118/value'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element/c66487bf-6f32-4883-ba10-a3482ab1a118/value'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element/c66487bf-6f32-4883-ba10-a3482ab1a118/value HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 141
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 54
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/903f1aa5-e71a-428a-bf68-c4b7e34f2862/value'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element/903f1aa5-e71a-428a-bf68-c4b7e34f2862/value'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element/903f1aa5-e71a-428a-bf68-c4b7e34f2862/value HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 151
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/b8faad6d-8499-428e-a399-3c27a4daf253/value'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element/b8faad6d-8499-428e-a399-3c27a4daf253/value'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element/b8faad6d-8499-428e-a399-3c27a4daf253/value HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 131
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 56
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/8bc951d9-3d74-4521-ba49-5925dce3e793/click'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element/8bc951d9-3d74-4521-ba49-5925dce3e793/click'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element/8bc951d9-3d74-4521-ba49-5925dce3e793/click HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 64
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/369bf54a-f20a-4593-8e4b-fe8379553abe/value'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element/369bf54a-f20a-4593-8e4b-fe8379553abe/value'
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element/369bf54a-f20a-4593-8e4b-fe8379553abe/value HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 201
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 52
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/d9498f7a-4a5d-46a4-af56-6b863216d454/value'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element/d9498f7a-4a5d-46a4-af56-6b863216d454/value'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element/d9498f7a-4a5d-46a4-af56-6b863216d454/value HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 151
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 56
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/f1b02162-5c77-44e6-b41e-a466870ae3f8/click'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element/f1b02162-5c77-44e6-b41e-a466870ae3f8/click'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element/f1b02162-5c77-44e6-b41e-a466870ae3f8/click HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 73
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/2c632377-c9a6-431b-ab7e-49026d6d1c01/value'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element/2c632377-c9a6-431b-ab7e-49026d6d1c01/value'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element/2c632377-c9a6-431b-ab7e-49026d6d1c01/value HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 231
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+  When User enters customer info                                                         # stepDefinitions.VerifyTitleSteps.user_enters_customer_info()
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 63
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/85b4b267-a769-41f9-b238-71e722f0323a/click'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element/85b4b267-a769-41f9-b238-71e722f0323a/click'
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element/85b4b267-a769-41f9-b238-71e722f0323a/click HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Entry count for : http://localhost:58199 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Entry count for : http://localhost:58199 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+  And User clicks on Save button                                                         # stepDefinitions.VerifyTitleSteps.user_clicks_on_save_button()
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'POST' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for POST '/session/043deac6fffd149313577ac82e4338c5/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/043deac6fffd149313577ac82e4338c5/element HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Length: 44
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'GET' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5/element/436ba9a4-83f1-4ed8-b52e-6332e4282413/text'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for GET '/session/043deac6fffd149313577ac82e4338c5/element/436ba9a4-83f1-4ed8-b52e-6332e4282413/text'
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/043deac6fffd149313577ac82e4338c5/element/436ba9a4-83f1-4ed8-b52e-6332e4282413/text HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 1353
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+  Then User can view confirmation message "The new customer has been added successfully" # stepDefinitions.VerifyTitleSteps.user_can_view_confirmation_message(java.lang.String)
+[DEBUG] Using pooled Channel '[id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]' for 'DELETE' to 'http://localhost:58199/session/043deac6fffd149313577ac82e4338c5'
+[DEBUG] Using open Channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199] for DELETE '/session/043deac6fffd149313577ac82e4338c5'
+[DEBUG] Unexpected I/O exception on channel [id: 0xdd4f6c7f, L:/127.0.0.1:50974 - R:localhost/127.0.0.1:50967]
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_311]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[na:1.8.0_311]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_311]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[na:1.8.0_311]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378) ~[na:1.8.0_311]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_311]
+[DEBUG] Closing Channel [id: 0xdd4f6c7f, L:/127.0.0.1:50974 - R:localhost/127.0.0.1:50967] 
+[DEBUG] Channel Closed: [id: 0xdd4f6c7f, L:/127.0.0.1:50974 ! R:localhost/127.0.0.1:50967] with attribute DISCARD
+[DEBUG] Unexpected I/O exception on channel [id: 0x1f04a348, L:/127.0.0.1:50975 - R:localhost/127.0.0.1:50967]
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_311]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[na:1.8.0_311]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_311]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[na:1.8.0_311]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378) ~[na:1.8.0_311]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_311]
+[DEBUG] Trying to recover from dead Channel: [id: 0x1f04a348, L:/127.0.0.1:50975 - R:localhost/127.0.0.1:50967]
+[DEBUG] Channel Closed: [id: 0x1f04a348, L:/127.0.0.1:50975 ! R:localhost/127.0.0.1:50967] with attribute NettyResponseFuture{currentRetry=5,
+	isDone=1,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.ws.WebSocketUpgradeHandler@6bffadc0,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@396c498f,
+	future=java.util.concurrent.CompletableFuture@7ed0acab[Completed normally],
+	uri=ws://localhost:50967/devtools/browser/bb12d85f-b7d1-4fae-881f-8cfbada7c0e0,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=null,
+	inAuth=0,
+	touch=1639643269846}
+[DEBUG] Closing Channel [id: 0x1f04a348, L:/127.0.0.1:50975 ! R:localhost/127.0.0.1:50967] 
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/043deac6fffd149313577ac82e4338c5 HTTP/1.1
+User-Agent: selenium/4.1.0 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:58199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:58199 for channel [id: 0x280c70b3, L:/127.0.0.1:50966 - R:localhost/127.0.0.1:58199]
+[DEBUG] Channel Closed: [id: 0x280c70b3, L:/127.0.0.1:50966 ! R:localhost/127.0.0.1:58199] with attribute DISCARD
+[DEBUG] Entry count for : http://localhost:58199 : 1
+[DEBUG] Entry count for : http://localhost:50967 : 1
+[DEBUG] Adding Candidate expired Channel [id: 0x280c70b3, L:/127.0.0.1:50966 ! R:localhost/127.0.0.1:58199] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+[DEBUG] Closing Idle Channel [id: 0x280c70b3, L:/127.0.0.1:50966 ! R:localhost/127.0.0.1:58199]
+[DEBUG] Adding Candidate expired Channel [id: 0xdd4f6c7f, L:/127.0.0.1:50974 ! R:localhost/127.0.0.1:50967] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+[DEBUG] Closing Idle Channel [id: 0xdd4f6c7f, L:/127.0.0.1:50974 ! R:localhost/127.0.0.1:50967]
+[DEBUG] Closed 2 connections out of 2 in 0 ms
+  And Close browser                                                                      # stepDefinitions.VerifyTitleSteps.closeBrowser()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 58199
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 16, 2021 1:57:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Dec 16, 2021 1:57:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+</testsuite>

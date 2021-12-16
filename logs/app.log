@@ -1,0 +1,15 @@
+13:57:11.539 DEBUG Cucumber Framework Development Program -*****INITIAL SETUP*****
+13:57:11.561 DEBUG Cucumber Framework Development Program -*****LAUNCHING BROWSER*****
+13:57:13.848 DEBUG Cucumber Framework Development Program -*****OPENING URL*****
+13:57:18.410 DEBUG Cucumber Framework Development Program -*****ENTERING LOGIN CREDENTIALS*****
+13:57:18.583 DEBUG Cucumber Framework Development Program -*****CLICKING LOGIN*****
+13:57:33.918 DEBUG Cucumber Framework Development Program -*****USER VIEWED DASHBOARD*****
+13:57:33.919 DEBUG Cucumber Framework Development Program -*****CLICKING CUSTOMERS MENU*****
+13:57:35.974 DEBUG Cucumber Framework Development Program -*****CLICKKING CUSTOMERS MENU ITEM*****
+13:57:40.350 DEBUG Cucumber Framework Development Program -*****CLICKING ADD NEW BUTTON TO ADD CUSTOMER*****
+13:57:44.413 DEBUG Cucumber Framework Development Program -*****ADD CUSTOMER PAGE OPENED*****
+13:57:44.414 DEBUG Cucumber Framework Development Program -*****ENTERING INFO TO ADD NEW CUSTOMER*****
+13:57:45.003 DEBUG Cucumber Framework Development Program -*****CLICKING SAVE*****
+13:57:49.775 DEBUG Cucumber Framework Development Program -*****NEW CUSTOMER ADDED SUCCESSFULLY*****
+13:57:49.776 DEBUG Cucumber Framework Development Program -*****CLOSING BROWSER*****
+13:57:50.496 INFO  Cucumber Framework Development Program -*****AFTER HOOK*****

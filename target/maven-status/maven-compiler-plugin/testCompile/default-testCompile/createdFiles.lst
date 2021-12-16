@@ -1,0 +1,8 @@
+stepDefinitions\VerifyTitleSteps.class
+pageObjects\LoginPage.class
+pageObjects\SearchCustomerPage.class
+testRunner\Runner.class
+stepDefinitions\Base.class
+utilities\WaitHelper.class
+pageObjects\AddCustomerPage.class
+stepDefinitions\DateDemo.class
