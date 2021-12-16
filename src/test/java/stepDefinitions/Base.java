@@ -1,5 +1,5 @@
 package stepDefinitions;
-
+// This is Base class
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
