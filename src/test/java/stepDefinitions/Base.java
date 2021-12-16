@@ -1,6 +1,7 @@
 package stepDefinitions;
 // This is Base class
 //This comment added from Github remote repository
+//This comment is from local repository
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
